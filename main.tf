@@ -4,7 +4,7 @@
   vpc_id      = var.vpc_id
 
   ingress {
-    description      = "ELASTICACHE"
+    description      = "RABBITMQ"
     from_port        = 6379
     to_port          = 6379
     protocol         = "tcp"
