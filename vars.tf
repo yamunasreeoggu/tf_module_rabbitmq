@@ -6,3 +6,4 @@ variable "subnets" {}
 variable "kms_key_id" {}
 variable "rabbitmq_instance_type" {}
 variable "zone_id" {}
+variable "workstation_node_cidr" {}
